@@ -86,9 +86,36 @@ header nav:hover > a:not(:hover) {
     left: 0;
 }
 
+@media(max-width: 1200px) {
+    .home .leaf1 {
+        width: 130rem;
+    }
+    .home .leaf2 {
+        width: 130rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    .home .leaf1 {
+        width: 100rem;
+    }
+    .home .leaf2 {
+        width: 100rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .home .leaf1 {
+        width: 80rem;
+    }
+    .home .leaf2 {
+        width: 80rem;
+    }
+}
+
 .home .title {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
